@@ -21,13 +21,26 @@
 
 <link rel="alternate" hreflang="en-GB" href="" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/datepicker.css" rel="stylesheet" type="text/css" />
 <link href="css/framework.css" rel="stylesheet" type="text/css" />
 <link href="css/animate.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="images/fav.png" />
 
 <script src="js/jquery-1.7.2.min.js"></script>
-<script src="js/custom.js"></script>
 <script src="js/modernizr.js"></script>
+
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
+<script>
+$(function() {
+	$("#datepicker").datepicker({ 
+		dateFormat: "yy-mm-dd",
+		changeMonth: true,
+		changeYear: true            
+	});
+});
+</script>
 
 </head>
 <body>
@@ -43,6 +56,75 @@
     </div>
     <div id="header-image"><img src="images/header-image.jpg" alt="jesse loves erin - header"></div>
     <span class="line"></span>
+    <div class="content">
+   	  <h1 class="mrgT20"><img src="images/join-us.jpg"></h1>
+        <div class="mrgT10"><img src="images/big-sur-california.jpg"></div>
+  	  <div class="regular-text-17-blue mrgT20">"...THE FACE OF THE EARTH AS THE  CREATOR INTENDED IT TO LOOK."<br>- HENRY MILLER</div>
+    	<img src="images/feather.png" class="mrgT20"/>
+    	<span class="line2" style="float: none"></span>
+        <div class="mrgT20"><img src="images/accommodations.jpg"></div>
+   	  	<div class="regular-text-17-italic mrgT20">HOSTED ACCOMMODATIONS WILL BE PROVIDED AT THE</div>
+   	  	<div class="regular-text-23 mrgT10">VENTANA INN</div>
+   	  	<div class="regular-text-18 mrgT10">48123 CA-1<br>BIG SUR, CALIFORNIA<br><a href="http://www.ventanainn.com">HTTP://WWW.VENTANAINN.COM</a></div>
+   	  	<span class="line2 mrgT20 mrgB20" style="float: none"></span>
+        <div class="mrgT20"><img src="images/festivities.jpg"></div>
+        
+  	  	<div class="regular-text-23 mrgT20">TUESDAY, JUNE 23RD</div>
+  	  	<div class="regular-text-22">COCKTAILS AND HORS D'OEUVRES</div>
+        
+   	  	<div class="regular-text-23 mrgT20">WEDNESDAY, JUNE 24TH</div>
+   	  	<div class="regular-text-22">REHEARSAL AND REHEARSAL DINNER</div>
+        
+   	  	<div class="regular-text-23 mrgT20">THURSDAY, JUNE 25TH</div>
+   	  	<div class="regular-text-22">WEDDING CEREMONY</div>
+   	  	<div class="regular-text-22">AND RECEPTION OF JESSE + ERIN</div>
+        
+   	  	<div class="regular-text-23 mrgT20">FRIDAY, JUNE 26TH</div>
+   	  	<div class="regular-text-22">FAREWELL BRUNCH</div>
+
+   	  	<span class="line2 mrgT20 mrgB20" style="float: none"></span>
+        
+        <div class="mrgT20"><img src="images/rspv.jpg"></div>
+  	  	<div class="regular-text-17-italic mrgT20">IN ORDER FOR US TO PROPERLY PLAN & PREPARE,</div>
+  	  	<div class="regular-text-23 mrgT5">KINDLY REPLY BY APRIL 20TH</div>
+
+   	  	<div class="regular-text-17 mrgT20">
+                <select name="nights">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            NIGHTS AT THE HOTEL <br>
+            ARRIVING ON <input type="text" name="departing"  class="datepicker"/>
+            AND DEPARTING ON <input type="text" name="departing" class="datepicker"/><br>
+            PLEASE MAKE OUR RESERVATION FOR 
+                <select name="guests">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+             NUMBER OF GUESTS<Br>
+            PLEASE HOLD OUR ROOM WITH THE NAME <br>
+            <input type="text" name="name" style="width: 80%"/>            
+        </div>
+        
+  	  	<div class="regular-text-18 mrgT20">WE CAN’T WAIT TO JOIN YOU FOR</div>
+		<div class="textleft">
+            <div class="regular-text-18 mrgT10">WELCOME PARTY ON TUESDAY, JUNE 23RD</div>
+            <div class="regular-text-18 mrgT10">REHEARSAL DINNER ON WEDNESDAY, JUNE 24TH</div>
+            <div class="regular-text-18 mrgT10">WEDDING ON THURSDAY, JUNE 25TH</div>
+            <div class="regular-text-18 mrgT10">FAREWELL BRUNCH ON FRIDAY, JUNE 24TH</div>
+        </div>
+    </div>
 </div>
+
+<script>
+	$('.datepicker').datepicker()
+</script>
+
 </body>
 </html>	

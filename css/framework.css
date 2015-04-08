@@ -39,6 +39,7 @@
 	font-family: 'museo700', arial !important;
 	font-weight: normal;
 }
+input {width: 100px; display: inline; background: #c9c1b4; color: #fff; padding: 3px 5px;}
 .full-width {max-width: 100%; width: auto}
 .fleft {	float: left !important;}
 .fright { float: right !important;}
@@ -48,6 +49,7 @@
 .borderRight { border-right: 1px solid #dadada!important;}
 .nobgimg { background-image: none !important; }
 .centertext { text-align: center; }
+.textleft { text-align: left; }
 .black {	color: #333 !important;}
 
 .orange {color: #f16621 !important}
@@ -99,6 +101,7 @@
 .mrgB20 {margin-bottom: 20px !important}
 .mrgB30 {margin-bottom: 30px !important}
 .mrgT0 {margin-top: 0px !important}
+.mrgT5 {margin-top: 5px !important}
 .mrgT10 {margin-top: 10px !important}
 .mrgT20 {margin-top: 20px !important}
 .mrgT30 {margin-top: 30px !important}
@@ -119,6 +122,14 @@
 .line {
 	background: url(../images/header-bottom.jpg) no-repeat center center;
 	height: 7px;
+	width: 100%;
+	margin: 5px 0;
+	display: block;
+	float: left;
+}
+.line2 {
+	background: url(../images/line.png) no-repeat center center;
+	height: 11px;
 	width: 100%;
 	margin: 5px 0;
 	display: block;

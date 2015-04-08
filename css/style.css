@@ -1,0 +1,83 @@
+@charset "utf-8";
+body {
+	color: #000000;
+	font: 12px century gothic;;
+	margin: 0;
+	padding: 0;
+	background-color: #b1a693;
+}
+div, h1, h2, h3, h4, p, form, label, input, textarea, img, span, table, td, tr, a {
+    border: 0 none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+@media all and screen(max-width: 768px){
+
+}
+
+@media all and screen(max-width: 1024px){
+
+}
+
+@media all and screen(min-width: 1025px){
+
+}
+#container {
+	height: auto;
+	width: 100%;
+	margin: 0 auto;
+	max-width: 900px;
+	border-right-width: 8px;
+	border-left-width: 8px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #473a26;
+	border-left-color: #473a26;
+	min-height: 500px;
+	background-color: #fff;
+}
+#header {
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 100%;
+	background-image: url(../images/header-bottom.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-bottom: 7px;
+}
+#header a {
+	font-family: "Century Gothic";
+	font-size: 15px;
+	line-height: 42px;
+	color: #4A3720;
+	text-decoration: none;
+}
+
+#header a:hover {
+	color: #BEB2A0;
+}
+
+#header span {
+	display: inline;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+#header-image {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 5px;
+}
+#header-image img {
+	height: auto;
+	width: 100%;
+	float: left;
+}

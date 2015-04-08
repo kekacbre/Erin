@@ -151,3 +151,6 @@ select, select option {
 	border: none;
 	padding: 1px 5px;
 }
+.select-one {
+	cursor: pointer;
+}
